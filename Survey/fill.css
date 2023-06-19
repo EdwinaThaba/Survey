@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    color: black;
+}  
+
+#title {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+#survey-form {
+    text-align: justify;
+}
+
+.row-tab {
+    display: block;
+    padding-bottom: 6px;
+}
+
+.label-tab {
+    display: inline-block;
+    width: 44%;
+    text-align: left;
+}
+
+.input-tab {
+    display: inline-block;
+    width: 54%;
+    text-align: left;
+}
+
+.select-tab {
+    width: 54%;
+    text-align: left;
+}
+
+table{
+    display: inline-table;
+    justify-content: left;
+}
+
+table {
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+}
+
+table tbody td,th{
+    border: 2px solid #c3cad8;
+    padding: 10px;
+    width: 60%;
+}
+
+table tbody td{
+    text-align: center;
+}
+
+table tbody th{
+    font-size: 0.8em;
+    background-color: #d4d4d4;
+}
+
+input[type="radio"]{
+    width: 25px;
+    height: 15px;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 170px;
+    height: 46px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    position: relative;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 7px solid white;
+}
